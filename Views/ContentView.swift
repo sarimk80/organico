@@ -9,18 +9,7 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Text("Hello, world!")
-                .padding()
-                .font(.custom("Poppins-ExtraBlod", fixedSize: 20))
-            Text("Hello, world!")
-                .padding()
-                .foregroundColor(Color("Red"))
-            
-            
-
-                
-        }
+        Splash()
     }
 }
 
